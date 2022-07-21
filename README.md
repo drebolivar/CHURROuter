@@ -1,28 +1,27 @@
-# CHURROuter
-## Date:7/21/22
+## Date: 7/21/2022
+
 ### Created By: Dre Bolivar, Jacquelin Velasquez, Matthew Russelli
-***
 
-### **_ Description _**
+---
 
-#### A react app for locating Churros in Disneyland
+### **_Description_**
 
-***
+#### A react full stack app for locating Churros in Disneyland.
 
-### **_ Technologies Used _**
+---
+
+### **_Technologies Used_**
 
 - React.js
-    - Axios from the API call
+  - Axios for the API call
 - Express
-- MongoDB
+- Mongo
 - Mongoose
 
-***
-
+---
 ### **_ Diagrams _**
 [Component Hierarchy Diagram](https://imgur.com/a/8X3y0PH)
 [ERD](https://imgur.com/lCQI5vU)
+---
 
-***
-
-### Credits
+### **_Credits_**
