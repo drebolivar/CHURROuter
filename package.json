@@ -1,0 +1,24 @@
+{
+  "name": "churrouter",
+  "version": "1.0.0",
+  "description": "A react app for locating Churros in Disneyland",
+  "main": "churrosoriginallist.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drebolivar/CHURROuter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drebolivar/CHURROuter/issues"
+  },
+  "homepage": "https://github.com/drebolivar/CHURROuter#readme",
+  "dependencies": {
+    "mongoose": "^6.4.6"
+  },
+  "devDependencies": {}
+}
