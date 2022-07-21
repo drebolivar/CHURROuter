@@ -7,8 +7,8 @@ const Churro = new Schema(
     price: { type: String, required: true },
     location: { type: String, required: true },
     description: { type: String, required: true },
-    deactive: { type: String, required: true },
-    churro_id: { type: Schema.Types.ObjectId, ref: 'churro_id' }
+    available: { type: String, required: true },
+    img: { type: String, required: true }
   },
   { timestamps: true }
 )
