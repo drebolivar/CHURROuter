@@ -1,7 +1,8 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Home from './components/Home'
+import Home from './pages/Home'
 import Nav from './components/Nav'
+import ChurroCard from './components/ChurroCard'
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          </Routes>
-          </main>
+          <Route path="/listchurros" element={<ChurroCard />} />
+        </Routes>
+      </main>
     </div>
   )
 }
