@@ -19,9 +19,13 @@
 - Mongoose
 
 ---
-### **_ Diagrams _**
-[Component Hierarchy Diagram](https://imgur.com/a/8X3y0PH)
-[ERD](https://imgur.com/lCQI5vU)
+
+### **_Diagrams_**
+
+#### [Component Hierarchy Diagram](https://imgur.com/a/8X3y0PH)
+
+#### [ERD](https://imgur.com/lCQI5vU)
+
 ---
 
 ### **_Credits_**
