@@ -7,6 +7,16 @@
   pointer-events: none;
 }
 
+.detail, .detail-header, .listings, .home, .churro-card, .navbar {
+  display: flex;
+}
+
+.home {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -53,3 +63,4 @@
   font-weight: bold;
   margin-left: 0.5em;
 }
+
