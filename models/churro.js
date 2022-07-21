@@ -8,8 +8,8 @@ const Churro = new Schema(
     price: { type: String, required: true },
     location: { type: String, required: true },
     description: { type: String, required: true },
-    available: { type: String, required: true }
-    // img: { type: String, required: true }
+    available: { type: String, required: true },
+    img: { type: String, required: true }
   },
   { timestamps: true }
 )
