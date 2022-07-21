@@ -1,8 +1,6 @@
-# CHURROuter
-
 ## Date: 7/21/2022
 
-### Created By: Dre Bolivar, Jacquie Valasquez, Matthew Russelli
+### Created By: Dre Bolivar, Jacquelin Velasquez, Matthew Russelli
 
 ---
 
@@ -21,13 +19,9 @@
 - Mongoose
 
 ---
-
-### **_Component Hierarchy Diagram React_**
-
-#### [Component Hierarchy Diagram](https://imgur.com/a/8X3y0PH)
-
----
-
+### **_ Diagrams _**
+[Component Hierarchy Diagram](https://imgur.com/a/8X3y0PH)
+[ERD](https://imgur.com/lCQI5vU)
 ---
 
 ### **_Credits_**
