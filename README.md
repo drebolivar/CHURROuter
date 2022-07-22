@@ -1,12 +1,16 @@
-## Date: 7/21/2022
+# CHURROuter
 
-### Created By: Dre Bolivar, Jacquelin Velasquez, Matthew Russelli
+## Created By: Andres Bolivar, Jacquelin Velasquez, Matthew Russelli
+
+### Date: 7/21/2022
 
 ---
 
 ### **_Description_**
 
-#### A react full stack app for locating Churros in Disneyland.
+#### A Hackathon project inspired by The Wonderful World of Churros in Disneyland.
+
+![Image](/assets/churritovar.jpeg)
 
 ---
 
@@ -29,3 +33,6 @@
 ---
 
 ### **_Credits_**
+
+- [Disney Food Blog](https://www.disneyfoodblog.com) for images, information, and inspiration.
+- Churrito The Mascot
