@@ -13,7 +13,7 @@ const ChurroDetails = () => {
   useEffect(() => {
     const getChurroDetails = async () => {
       await axios.get(`http://localhost:3001/api/churro`).then((res) => {
-        console.log(res.data.churros)
+        // console.log(res.data.churros)
         setChurroDetails(res.data.churros)
       })
     }
@@ -25,11 +25,11 @@ const ChurroDetails = () => {
       <div className="churro-results container-grid">
         {churroDetails.map((churro) => (
           <ChurroCard
-            img={churro.img}
             type={churro.type}
             price={churro.price}
             description={churro.description}
             location={churro.location}
+            img={churro.img}
             onClick={() => {
               navigate(`/listchurros/details/${churro._id}/`)
             }}

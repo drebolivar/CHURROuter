@@ -9,9 +9,12 @@ const ViewChurro = () => {
 
   useEffect(() => {
     axios.get(`http://localhost:3001/api/churro/${churroId}`).then((res) => {
-      setViewChurro(res.data)
+      // console.log(res.data)
+      setViewChurro(res.data.churro)
     })
   }, [churroId])
+
+  // console.log(viewChurro)
 
   return (
     <div>
@@ -22,8 +25,19 @@ const ViewChurro = () => {
       </section>
       <section>
         <div>
-          <h3>{viewChurro != null ? <p>{viewChurro.type}</p> : ``}</h3>
-          {viewChurro != null ? viewChurro.description : ``}
+          <h3>
+            {viewChurro != null ? <p>Type of Churro: {viewChurro.type}</p> : ``}
+          </h3>
+          <h3>
+            {viewChurro != null ? <p>Location: {viewChurro.location}</p> : ``}
+          </h3>
+          <h3>
+            {viewChurro != null ? (
+              <p>Description: {viewChurro.description}</p>
+            ) : (
+              ``
+            )}
+          </h3>
         </div>
       </section>
     </div>

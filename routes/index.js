@@ -8,4 +8,6 @@ router.get('/churro', controller.getChurros)
 
 router.post('/churro', controller.createChurro)
 
+router.get('/churro/:id', controller.getChurroById)
+
 module.exports = router;
