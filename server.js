@@ -1,21 +1,19 @@
-const express = require('express');
-const routes = require('./routes');
-const db = require('./db');
-const logger = require('morgan');
-const cors = require('cors');
+const express = require('express')
+const routes = require('./routes')
+const db = require('./db')
+const logger = require('morgan')
+const cors = require('cors')
 
+const PORT = process.env.PORT || 3001
 
+const app = express()
 
-const PORT = process.env.PORT || 3001;
+app.use(express.json())
 
-const app = express();
+app.use(cors())
+app.use(logger('dev'))
 
-app.use(express.json());
-
-app.use(cors());
-app.use(logger('dev'));
-
-app.use('/api', routes);
+app.use('/api', routes)
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 

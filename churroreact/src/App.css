@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.detail,
+.detail-header,
+.listings,
+.home,
+.churro-card,
+.navbar {
+  display: flex;
+}
+
+.home {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: black;
+  padding: 1em;
+  min-height: 2em;
+  font-family: 'Georgia';
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 0.5em;
+}
+
+.card {
+  max-width: 400px;
+  max-height: 480px;
+  border-radius: 4px;
+  background-color: #ff0000;
+  transition: all 0.2s;
+}
+
+.card .img-wrapper {
+  width: auto;
+}
+.card img {
+  width: 100%;
+  height: 200px;
+}
+
+.card .info-wrapper {
+  padding: 1em;
+}
+.container-grid {
+  padding: 2em 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 425px);
+  grid-gap: 1em;
+  justify-content: center;
+}
