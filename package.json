@@ -72,7 +72,6 @@
     "mpath": "^0.9.0",
     "mquery": "^4.0.3",
     "negotiator": "^0.6.3",
-    "nodemon": "^2.0.19",
     "nopt": "^1.0.10",
     "normalize-path": "^3.0.0",
     "object-inspect": "^1.12.2",
@@ -130,5 +129,8 @@
   "bugs": {
     "url": "https://github.com/drebolivar/CHURROuter/issues"
   },
-  "homepage": "https://github.com/drebolivar/CHURROuter#readme"
+  "homepage": "https://github.com/drebolivar/CHURROuter#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
