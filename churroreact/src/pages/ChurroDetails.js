@@ -20,13 +20,14 @@ const ChurroDetails = () => {
 
   return (
     <div>
-      <div className="churroresults">
+      <div className="churro-results container-grid">
         {churroDetails.map((churro) => (
           <ChurroCard
             img={churro.img}
             type={churro.type}
             price={churro.price}
             description={churro.description}
+            location={churro.location}
           />
         ))}
       </div>

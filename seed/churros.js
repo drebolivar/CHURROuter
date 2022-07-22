@@ -12,7 +12,7 @@ const main = async () => {
       location: 'Hungry Bear Restauraunt',
       description: 'Traditional Churro',
       available: 'yes',
-      img: '../assets/regular.jpeg'
+      img: 'https://i.imgur.com/yFlr9vq.jpg'
     },
     {
       type: 'Berries and Cream',
@@ -22,7 +22,7 @@ const main = async () => {
       description:
         'Berries and Cream..Berries and Cream...Im a little lad who loves Berries and Cream',
       available: 'yes',
-      img: '../assets/berriesandcream.jpeg'
+      img: 'https://i.imgur.com/UrUj4am.jpg'
     },
     {
       type: 'Green Apple',
@@ -31,7 +31,7 @@ const main = async () => {
       location: 'Tomorrowland',
       description: 'Green apple flavored sugar paired with caramel sauce.',
       available: 'yes',
-      img: '../assets/greenapple.jpeg'
+      img: 'https://i.imgur.com/6e4IFd0.jpg'
     },
     {
       type: 'Blueberry Looks Good on You',
@@ -41,7 +41,7 @@ const main = async () => {
       description:
         'Blueberry-flavored sugar-dusted churro that is paired with a dip made of blueberry fruit topping and cream cheese icing.',
       available: 'yes',
-      img: '../assets/blueberrylooksgoodonyou.jpeg'
+      img: 'https://i.imgur.com/mbGjKhK.jpg'
     },
     {
       type: 'Caliente',
@@ -50,7 +50,7 @@ const main = async () => {
       location: 'Senor Buzz Churros',
       description: 'Churros covered in cinnamon, reminscent of Red Hots candy.',
       available: 'yes',
-      img: '../assets/caliente.jpeg'
+      img: 'https://i.imgur.com/ycO8qtW.jpg'
     },
     {
       type: 'Cinnamon Super Galaxy',
@@ -59,7 +59,7 @@ const main = async () => {
       location: 'Senor Buzz Churros',
       description: 'Churro with extra space dust',
       available: 'yes',
-      img: '../assets/cinnamonsupergalaxy.jpeg'
+      img: 'https://i.imgur.com/opsE6oj.jpg'
     },
     {
       type: 'Mango',
@@ -69,7 +69,7 @@ const main = async () => {
       description:
         'Tamarind chamoy and mango chunks covered in chili-lime sugar and mango sauce.',
       available: 'yes',
-      img: '../assets/mango.jpeg'
+      img: 'https://i.imgur.com/sc3gwhD.jpg'
     },
     {
       type: 'Smores',
@@ -79,7 +79,7 @@ const main = async () => {
       description:
         'Covered in crushed graham crackers and is served with a gooey marshmallow and chocolate dipping sauce.',
       available: 'yes',
-      img: '../assets/smores.jpeg'
+      img: 'https://i.imgur.com/4KxoNdj.jpg'
     },
     {
       type: 'Pineapple Tres Leches Churro',
@@ -88,16 +88,7 @@ const main = async () => {
       location: 'Schmoozies',
       description: 'Classic churro with a pineapple tres leches dipping sauce.',
       available: 'yes',
-      img: '../assets/pineappletresleches.jpeg'
-    },
-    {
-      type: 'Rose Gold',
-      dip: 'NA',
-      price: 'NA',
-      location: 'NA',
-      description: 'NA',
-      available: 'no',
-      img: '../assets/rosegold.jpeg'
+      img: 'https://i.imgur.com/v1tJKkC.jpg'
     },
     {
       type: 'Power Stone',
@@ -107,7 +98,7 @@ const main = async () => {
       description:
         'Covered in blackberry-flavored sugar, icing, and purple rock candy.',
       available: 'no',
-      img: '../assets/powerstone.jpeg'
+      img: 'https://i.imgur.com/AXRqO6U.jpg'
     },
     {
       type: 'Maple Bacon',
@@ -116,7 +107,7 @@ const main = async () => {
       location: 'Redwood Creek Challenge Trail',
       description: 'Maple icing with crumbled bacon.',
       available: 'no',
-      img: '../assets/maplebacon.jpeg'
+      img: 'https://i.imgur.com/QAkT4Ny.jpg'
     },
     {
       type: 'Fluffernutter',
@@ -126,7 +117,7 @@ const main = async () => {
       description:
         'Topped with peanut butter sauce, marshmallow sauce, and chocolate chips.',
       available: 'no',
-      img: '../assets/fluffernutter.jpeg'
+      img: 'https://i.imgur.com/mubGHYQ.jpg'
     },
     {
       type: 'Pecan Pie',
@@ -136,7 +127,7 @@ const main = async () => {
       description:
         'classic churro smothered in maple glaze, toasted pecans, and chocolate drizzle',
       available: 'no',
-      img: '../assets/pecanpie.jpeg'
+      img: 'https://i.imgur.com/cyYeuNo.jpg'
     },
     {
       type: 'Sleeping Beauty',
@@ -146,26 +137,16 @@ const main = async () => {
       description:
         'Pink cherry and blue raspberry churros, for promotion of Magic Happens Parade',
       available: 'no',
-      img: '../assets/pecanpie.jpeg'
+      img: 'https://i.imgur.com/UxkPELP.jpg'
     },
     {
       type: 'Candy Corn',
       dip: 'Candy Corn Sauce',
-      price: 'NA',
+      price: '$6.75',
       location: 'NA',
       description: 'Orange sugar churros with candy corn sauce',
       available: 'no',
-      img: '../assets/pecanpie.jpeg'
-    },
-    {
-      type: 'Lightsabers',
-      dip: 'NA',
-      price: 'NA',
-      location: 'NA',
-      description:
-        'Blue and red colored churros, reminiscent of the iconic lightsabers from Star Wars',
-      available: 'no',
-      img: '../assets/lightsabers.jpeg'
+      img: 'https://i.imgur.com/bRwumWf.jpg'
     },
     {
       type: 'Horchata',
@@ -175,7 +156,7 @@ const main = async () => {
       description:
         'Cinnamon and nutmeg sugar with a condensed milk dipping sauce',
       available: 'no',
-      img: '../assets/horchata.jpeg'
+      img: 'https://i.imgur.com/uQmtwjp.jpg'
     },
     {
       type: 'Milk and Cookies',
@@ -185,7 +166,7 @@ const main = async () => {
       description:
         'Rolled in chocolate chip cookie , cookies and cream sugar, and cream dipping sauce.',
       available: 'no',
-      img: '../assets/milkandcookies.jpeg'
+      img: 'https://i.imgur.com/F4cpDHs.jpg'
     },
     {
       type: 'Sugar Cookie',
@@ -194,7 +175,7 @@ const main = async () => {
       location: 'Cozy Cone Motel',
       description: 'Covered in icing and holiday sprinkles.',
       available: 'no',
-      img: '../assets/sugarcookies.jpeg'
+      img: 'https://i.imgur.com/QMzGqqh.jpg'
     },
     {
       type: 'Turtle',
@@ -204,7 +185,7 @@ const main = async () => {
       description:
         'Dusted with dark chocolate sugar, drizzled with condensed milk, and served with caramel pecan dipping sauce',
       available: 'no',
-      img: '../assets/turtles.jpeg'
+      img: 'https://i.imgur.com/ACkIyFv.jpg'
     },
     {
       type: 'Peppermint',
@@ -214,7 +195,7 @@ const main = async () => {
       description:
         'Smothered in crushed peppermint, chocolate sauce, and vanilla icing.',
       available: 'no',
-      img: '../assets/peppermint.jpeg'
+      img: 'https://i.imgur.com/x1Mv9Nv.jpg'
     },
     {
       type: 'Toffee',
@@ -223,7 +204,7 @@ const main = async () => {
       location: 'Tomorrowland',
       description: 'Toffee sugar with chocolate almond dipping sauce.',
       available: 'no',
-      img: '../assets/toffee.jpeg'
+      img: 'https://i.imgur.com/lmM581K.jpg'
     },
     {
       type: 'Caramel and Coconut',
@@ -232,7 +213,7 @@ const main = async () => {
       location: 'Sleeping Beauty Castle',
       description: 'Covered in coconut flakes with a caramel coconut dip.',
       available: 'no',
-      img: '../assets/caramelcoconut.jpeg'
+      img: 'https://i.imgur.com/UxmbGi0.jpg'
     },
     {
       type: 'Sugar Plum',
@@ -241,7 +222,7 @@ const main = async () => {
       location: 'New Orleans Square',
       description: 'Churro with a generous amount of purple sugar.',
       available: 'no',
-      img: '../assets/sugarplum.jpeg'
+      img: 'https://i.imgur.com/nD4hEgX.jpg'
     },
     {
       type: 'Banana Foster',
@@ -251,7 +232,7 @@ const main = async () => {
       description:
         'Dusted in cinammon-banana sugar with a banana-infused caramel sauce',
       available: 'no',
-      img: '../assets/bananafoster.jpeg'
+      img: 'https://i.imgur.com/GozZmZ9.jpg'
     },
     {
       type: 'Yellow Marshmallow',
@@ -261,7 +242,7 @@ const main = async () => {
       description:
         'Yellow marshmallow flavored with marshmallow dipping sauce.',
       available: 'no',
-      img: '../assets/yellowmarshmallow.jpeg'
+      img: 'https://i.imgur.com/NZWtU4Q.jpg'
     },
     {
       type: 'Sour Cherry',
@@ -271,35 +252,25 @@ const main = async () => {
       description:
         'Valentines Day special complete with sour sugar and cream cheese frosting dip',
       available: 'no',
-      img: '../assets/sourcherry.jpeg'
-    },
-    {
-      type: 'Caramel Corn',
-      dip: 'NA',
-      price: 'NA',
-      location: 'Willies Churros',
-      description:
-        'Rolled in corn cereal sugar, caramel drizzle, and caramel corn.',
-      available: 'yes',
-      img: '../assets/caramelcorn.jpeg'
+      img: 'https://i.imgur.com/dcR7ohH.jpg'
     },
     {
       type: 'Strawberry Sugar',
       dip: 'NA',
-      price: 'NA',
+      price: '$5.25',
       location: 'New Orleans Square',
       description: 'Traditional Churro rolled in strawberry sugar,',
       available: 'no',
-      img: '../assets/strawberrysugar.jpeg'
+      img: 'https://i.imgur.com/fETX0a0.jpg'
     },
     {
       type: 'Oreo',
-      dip: 'NA',
-      price: 'NA',
+      dip: 'Oreo Frosting',
+      price: '$6.50',
       location: 'California Churro',
       description: 'Rolled in Oreo crumbs and topped with a cream drizzle.',
       available: 'yes',
-      img: '../assets/oreo.jpeg'
+      img: 'https://i.imgur.com/a11FOom.jpg'
     }
   ]
 

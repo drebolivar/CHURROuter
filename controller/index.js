@@ -9,6 +9,18 @@ const getChurros = async (req, res) =>{
     }
 }
 
+const createChurro = async(req, res) =>{
+    try{
+        const churro = await new Churro(req.body)
+        await churro.save()
+        return res.status(201).json({
+            churro,
+        });
+    }catch (e){
+        return res.status(500).json({error: e.message})
+    }
+}
+
 module.exports = {
-    getChurros
+    getChurros, createChurro
 }
