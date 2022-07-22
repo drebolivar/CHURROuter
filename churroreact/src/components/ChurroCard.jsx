@@ -1,9 +1,11 @@
 const ChurroCard = (props) => {
   return (
     <div className="card churro-card" onClick={props.onClick}>
-      <div className="img-wrapper">
+      <div>
         <h3>{props.type}</h3>
-        <p>{props.price}</p>
+        <h3>{props.price}</h3>
+      </div>
+      <div className="img-wrapper">
         <img src={props.img} alt={props.type} />
       </div>
       <div className="info-wrapper"></div>

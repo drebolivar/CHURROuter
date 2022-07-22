@@ -64,6 +64,8 @@
   background-color: #ff0000;
   transition: all 0.2s;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .card .img-wrapper {
