@@ -4,7 +4,7 @@ const Home = () => {
       <div>
         <img
           style={{ display: 'block', maxWidth: '100%' }}
-          src="https://i.imgur.com/9xTDgnK.png."
+          src="https://i.imgur.com/MxYVoat.png"
           alt="logo"
         />
       </div>
